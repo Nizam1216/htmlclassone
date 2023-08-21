@@ -1,16 +1,102 @@
 <html>
   <head>
-    <title>html practise</title>
+    <title>html class 3</title>
+    <style>
+      .maindiv{
+        border: 2px solid black;
+        width:300px;
+        height: 150px;
+        margin: 20px;
+      }
+      .redcolor{
+        background-color: red;
+        height: 33%;
+      }
+      .whitecolor{
+        background-color: white;
+        height: 33%;
+      }
+      .greencolor{
+        background-color: green;
+        height: 34%;
+      }
+      .image{
+        height: 30px;
+        width: 30px;
+        margin-left:"100px";
+        padding-left: 100px;
+        padding-top:100px;
+      }
+      .maindiv2{
+        width:33%;
+      }
+      .flex{
+        display:flex;
+      }
+      /* p {
+        background-color: green;
+      }
+      .mainheading {
+        background-color: red;
+        width: 50%;
+        height: 100vh;
+      }
+      #notmain {
+        background-color: yellow;
+      }
+      .division {
+        color: rgb(243, 7, 7);
+        display: flex;
+        border: 1px solid black;
+      } */
+    </style>
   </head>
   <body>
-    hello nizam
-    <h1>this is h1 heading</h1>
-    <h2>this is also heading tag but smaller</h2>
-    <h3>this is smaller <span>hiii</span> bith above</h3>
-    <h4>hiii</h4>
-    than
-    <h5>this is h5</h5>
-    <h6>khljsdnvksndjv</h6>
-    <p>lorem sdjasncja kjsdbvkjsn noasjn thia ia this is paragraph.</p>
+    <!-- nizam
+    <h1 class="mainheading">heading tag</h1>
+    <h2>this tag</h2>
+    <p>this is my class teaching html</p>
+    <i>this is italic text</i>
+    <b class="mainheading">this is bold text</b>
+    <code>this is important </code>
+     list styles 
+    1.ordered list
+    2.unordered list 
+    3.description list
+    -->
+    <!-- <ol>
+      <li>this is first list</li>
+      <li>this is second list</li>
+      <li>this is third</li>
+    </ol>
+    <ul>
+      <li>this is first tag</li>
+      <li>this is second list</li>
+      <li>this is third</li>
+    </ul>
+    <div class="division">
+      <h1 id="notmain">this is inside div</h1>
+      <h2>this is small</h2> -->
+ <div class="flex">
+
+<div class="maindiv">
+  <div class="redcolor"></div>
+  <div class="whitecolor"></div>
+  <div class="greencolor"></div>
+</div>
+<div class="maindiv2">
+  <div class="redcolor">
+    <img class="image" src="data:image/jpeg;base64,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" alt="this is not working"/>
+  </div>
+  
+</div>
+<div class="maindiv">
+  <div class="redcolor"></div>
+  <div class="whitecolor"></div>
+  <div class="greencolor"></div>
+</div>
+ </div>
+   
+</div>
   </body>
 </html>
